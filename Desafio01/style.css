@@ -41,7 +41,7 @@ margin-top: 50px;
     margin-top: 380px;
     margin-left:-256px;
     position: absolute;
-    animation: rodar 2s linear reverse infinite ;
+    animation: rodar 1s linear reverse infinite ;
     
     
     
@@ -61,7 +61,7 @@ margin-top: 50px;
     left: 50%;
     margin-top: 380px;
     margin-left: 77px;
-    animation: rodar 2s linear reverse infinite;
+    animation: rodar 1s linear reverse infinite;
     
 
 }
