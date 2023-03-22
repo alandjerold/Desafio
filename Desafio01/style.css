@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+}
+.paralama{
+    position: relative;
+   
+}
+.sem{
+position: absolute;
+width: 520px;
+z-index: 2;
+top: 50%;
+left: 50%;
+transform: translate(-50%);
+margin-top: 50px;
+}
+
+@keyframes rodar {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.roda01{
+    position: relative;
+    
+    
+}
+.roda1{
+    width: 115px;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin-top: 380px;
+    margin-left:-256px;
+    position: absolute;
+    animation: rodar 2s linear reverse infinite ;
+    
+    
+    
+    
+}
+
+.roda02{
+    position: relative;
+    
+}
+
+.roda2 {
+    position: absolute;
+    width: 115px;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin-top: 380px;
+    margin-left: 77px;
+    animation: rodar 2s linear reverse infinite;
+    
+
+}
+
