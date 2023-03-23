@@ -66,3 +66,84 @@ margin-top: 50px;
 
 }
 
+.bag{
+    position: relative;
+   
+}
+
+.bag01{
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+    margin-top: 111px;
+    margin-left: 37px;
+    animation: is-boucing 1s ease alternate infinite ;
+    animation-delay: 7s;
+animation-delay: 0s;
+animation-delay: -1500ms;
+
+    
+  
+    
+    
+    
+
+}
+
+@keyframes is-boucing {
+    0% { 
+        transform:translateY(0px);
+        
+    }
+
+    50%{
+        transform: translateY(0px);
+        
+        
+    }
+    55%{
+        transform: translateY(0px);
+        
+        
+    }
+    60%{
+        transform: translateY(0px);
+        
+       
+    }
+    65%{
+        transform: translateY(0px);
+      
+        
+    }
+    70%{
+        transform: translateY(0px);
+        
+        
+    }
+    75%{
+        transform: translateY(0px);
+        
+        
+    }
+    80%{
+        transform: translateY(0px);
+        
+      ;
+    }
+   
+    100%{
+        transform: translateY(-20px);
+      
+        
+    }
+    
+    
+    
+    
+    
+}
+
+
