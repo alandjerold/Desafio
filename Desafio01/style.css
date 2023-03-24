@@ -19,14 +19,18 @@ width: 520px;
 z-index: 2;
 top: 50%;
 left: 50%;
-transform: translate(-50%);
-margin-top: 50px;
+margin-top: 40px;
+margin-left:-256px;
+animation: is-boucing01 1.5s  alternate infinite ;
 }
 
 @keyframes rodar {
     from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+    to {
+        transform: rotate(360deg);
+    }
 }
+
 
 .roda01{
     position: relative;
@@ -41,10 +45,9 @@ margin-top: 50px;
     margin-top: 380px;
     margin-left:-256px;
     position: absolute;
-    animation: rodar 1s linear reverse infinite ;
+    animation: rodar 1s linear  reverse infinite ;
     
-    
-    
+   
     
 }
 
@@ -74,9 +77,10 @@ margin-top: 50px;
     width: 12px;
     top: 50%;
     left: 50%;
-    margin-top: 410px ;
+    margin-top: 393.6px ;
     margin-left: 248px;
-    animation: fumaça 4s ease-in-out  infinite ;
+    animation: fumaça 3.5s ease-in-out  infinite ;
+    
 
 }
 .fuma02{
@@ -87,9 +91,9 @@ margin-top: 50px;
     width: 12px;
     top: 50%;
     left: 50%;
-    margin-top: 410px ;
+    margin-top: 393.5px ;
     margin-left: 248px;
-    animation: fumaça 3s ease-in-out  infinite ;
+    animation: fumaça 4s ease-in-out  infinite ;
 
 }
 .fuma03{
@@ -100,17 +104,14 @@ margin-top: 50px;
     width: 15px;
     top: 50%;
     left: 50%;
-    margin-top: 410px ;
-    margin-left: 248px;
-    animation: fumaça 2.5s ease-in-out  infinite ;
+    margin-top: 393.5px ;
+    margin-left: 249px;
+    animation: fumaça 3.2s ease-in-out  infinite ;
     
 }
 
-@-webkit-keyframes test {
-    from{
-        tra
-    }
-}
+
+
 .bag{
     position: relative;
    
@@ -134,11 +135,19 @@ margin-top: 50px;
 
 @keyframes fumaça {
     0% {
-        transform: translateY(0px);opacity: 100%;
+        transform: translateY();opacity: 0%;
         rotate: 100deg ;
         
+    }
+    5% {
+        transform: translateY(-2.5vh);opacity: 0%;
         
-     
+        
+    }
+    10% {
+        transform: translateY();opacity: 100%;
+        
+        
     }
   
     50% {
@@ -146,12 +155,14 @@ margin-top: 50px;
         opacity: 0%;
         rotate: 30deg;
        
+       
     }
     
     100%{
         transform: translateY(-34vh);
         opacity: 0%;
         rotate: 0deg;
+        
         
     }
     
@@ -203,17 +214,58 @@ margin-top: 50px;
    
     100%{
         transform: translateY(-20px);
-        
-        
-        
+            
+    } 
+}
+
+@keyframes is-boucing01 {
+   
+    0% { 
+        transform:translateY(0px);
         
         
     }
-    
-    
-    
-    
-    
-}
 
+    50%{
+        transform: translateY(0px);
+        
+        
+    }
+    55%{
+        transform: translateY(0px);
+        
+        
+    }
+    60%{
+        transform: translateY(0px);
+        
+       
+    }
+    65%{
+        transform: translateY(0px);
+      
+        
+    }
+    70%{
+        transform: translateY(0px);
+        
+        
+    }
+    75%{
+        transform: translateY(0px);
+        
+        
+    }
+    80%{
+        transform: translateY(0px);
+        
+      
+    }
+   
+    100%{
+        transform: translateY(-10px);
+      
+    }
+  
+}
 
