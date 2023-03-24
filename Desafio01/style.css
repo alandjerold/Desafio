@@ -66,6 +66,51 @@ margin-top: 50px;
 
 }
 
+.fuma01{
+    position: relative;
+}
+.fumaça01{
+    position: absolute;
+    width: 12px;
+    top: 50%;
+    left: 50%;
+    margin-top: 410px ;
+    margin-left: 248px;
+    animation: fumaça 4s ease-in-out  infinite ;
+
+}
+.fuma02{
+    position: relative;
+}
+.fumaça02{
+    position: absolute;
+    width: 12px;
+    top: 50%;
+    left: 50%;
+    margin-top: 410px ;
+    margin-left: 248px;
+    animation: fumaça 3s ease-in-out  infinite ;
+
+}
+.fuma03{
+    position: relative;
+}
+.fumaça03{
+    position: absolute;
+    width: 15px;
+    top: 50%;
+    left: 50%;
+    margin-top: 410px ;
+    margin-left: 248px;
+    animation: fumaça 2.5s ease-in-out  infinite ;
+    
+}
+
+@-webkit-keyframes test {
+    from{
+        tra
+    }
+}
 .bag{
     position: relative;
    
@@ -79,22 +124,44 @@ margin-top: 50px;
     z-index: 4;
     margin-top: 111px;
     margin-left: 37px;
-    animation: is-boucing 1s ease alternate infinite ;
-    animation-delay: 7s;
-animation-delay: 0s;
-animation-delay: -1500ms;
-
-    
-  
+    animation: is-boucing 1.5s ease alternate infinite ;
     
     
     
+   
 
 }
 
+@keyframes fumaça {
+    0% {
+        transform: translateY(0px);opacity: 100%;
+        rotate: 100deg ;
+        
+        
+     
+    }
+  
+    50% {
+        transform: translateY(-30vh);
+        opacity: 0%;
+        rotate: 30deg;
+       
+    }
+    
+    100%{
+        transform: translateY(-34vh);
+        opacity: 0%;
+        rotate: 0deg;
+        
+    }
+    
+}
+
 @keyframes is-boucing {
+   
     0% { 
         transform:translateY(0px);
+        
         
     }
 
@@ -131,12 +198,15 @@ animation-delay: -1500ms;
     80%{
         transform: translateY(0px);
         
-      ;
+      
     }
    
     100%{
         transform: translateY(-20px);
-      
+        
+        
+        
+        
         
     }
     
