@@ -31,7 +31,62 @@ animation: is-boucing01 1.5s  alternate infinite ;
     }
 }
 
+.capa{
+    position: relative;
+}
 
+.capa1{
+    width:  30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 8;
+    margin-top: 158px;
+    margin-left: 57px;
+    animation: is-boucing 1.5s ease alternate infinite ;
+}
+.capad{
+    position: relative;
+}
+.capa2{
+    width:  30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 8;
+    margin-top: 147px;
+    margin-left: 100px;
+    animation: is-boucing 1.5s ease alternate infinite ;
+}
+
+.refrid{
+    position: relative;
+}
+.refri1{
+    position: absolute;
+    width: 22px;
+    top: 50%;
+    left: 50%;
+    z-index: 7;
+    margin-top: 142px;
+    margin-left:59.5px;
+    animation: is-boucing02 1.5s ease alternate infinite ;
+    
+}
+.refri2d{
+    position: relative;
+}
+.refri2{
+    position: absolute;
+    width: 22px;
+    top: 50%;
+    left: 50%;
+    z-index: 7;
+    margin-top: 130px;
+    margin-left:102px;
+    animation: is-boucing02 1.5s ease alternate infinite ;
+    
+}
 .roda01{
     position: relative;
     
@@ -126,6 +181,7 @@ animation: is-boucing01 1.5s  alternate infinite ;
     margin-top: 111px;
     margin-left: 37px;
     animation: is-boucing 1.5s ease alternate infinite ;
+    
     
     
     
@@ -268,4 +324,55 @@ animation: is-boucing01 1.5s  alternate infinite ;
     }
   
 }
+@keyframes is-boucing02 {
+   
+    0% { 
+        transform:translateY(0px);
+        
+        
+    }
+
+    50%{
+        transform: translateY(0px);
+        
+        
+    }
+    55%{
+        transform: translateY(0px);
+        
+        
+    }
+    60%{
+        transform: translateY(0px);
+        
+       
+    }
+    65%{
+        transform: translateY(0px);
+      
+        
+    }
+    70%{
+        transform: translateY(0px);
+        
+        
+    }
+    75%{
+        transform: translateY(0px);
+        
+        
+    }
+    80%{
+        transform: translateY(0px);
+        
+      
+    }
+   
+    100%{
+        transform: translateY(-29px);
+      
+    }
+  
+}
+
 
