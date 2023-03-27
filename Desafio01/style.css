@@ -41,8 +41,8 @@ animation: is-boucing01 1.5s  alternate infinite ;
     top: 50%;
     left: 50%;
     z-index: 8;
-    margin-top: 158px;
-    margin-left: 57px;
+    margin-top: 155.5px;
+    margin-left: 65px;
     animation: is-boucing 1.5s ease alternate infinite ;
 }
 .capad{
@@ -55,7 +55,7 @@ animation: is-boucing01 1.5s  alternate infinite ;
     left: 50%;
     z-index: 8;
     margin-top: 147px;
-    margin-left: 100px;
+    margin-left: 110px;
     animation: is-boucing 1.5s ease alternate infinite ;
 }
 
@@ -68,8 +68,8 @@ animation: is-boucing01 1.5s  alternate infinite ;
     top: 50%;
     left: 50%;
     z-index: 7;
-    margin-top: 142px;
-    margin-left:59.5px;
+    margin-top: 138px;
+    margin-left:68px;
     animation: is-boucing02 1.5s ease alternate infinite ;
     
 }
@@ -78,12 +78,12 @@ animation: is-boucing01 1.5s  alternate infinite ;
 }
 .refri2{
     position: absolute;
-    width: 22px;
+    width: 32px;
     top: 50%;
     left: 50%;
     z-index: 7;
     margin-top: 130px;
-    margin-left:102px;
+    margin-left:112.5px;
     animation: is-boucing02 1.5s ease alternate infinite ;
     
 }
