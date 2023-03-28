@@ -20,17 +20,20 @@ body,html{
         100% {transform: rotate3d(1,2,10, -5deg) translateX(-14px);}
 }
 
+body{
+    background-image: linear-gradient(to top,black,rgb(100, 98, 98),rgb(22, 135, 201), rgb(24, 91, 192));
+}
 .pescoçod{
     position: relative;
-    animation: moviment 2s ease-in-out alternate infinite;
+    animation: moviment 3s ease-in-out alternate infinite;
 }
 .pescoço{
     position: absolute;
     width: 40px;
     top: 50%;
     left: 50%;
-    margin-top: 100px;
-    margin-left: -9px;
+    margin-top: 109px;
+    margin-left: -6px;
     z-index: 1;
     animation: is-boucing01 1.5s  alternate infinite ;
     animation-delay: 1s;
@@ -47,9 +50,9 @@ body,html{
     width: 80px;
     top: 50%;
     left: 50%;
-    margin-top: 45px;
-    margin-left: -44px;
-    animation: moviment 2s ease-in-out alternate infinite;
+    margin-top: 49px;
+    margin-left: -40px;
+    animation: moviment 3s ease-in-out alternate infinite;
     
    
 }
