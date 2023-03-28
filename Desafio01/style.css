@@ -22,6 +22,7 @@ left: 50%;
 margin-top: 40px;
 margin-left:-256px;
 animation: is-boucing01 1.5s  alternate infinite ;
+animation-delay: 3s;
 }
 
 @keyframes rodar {
@@ -36,27 +37,32 @@ animation: is-boucing01 1.5s  alternate infinite ;
 }
 
 .capa1{
-    width:  30px;
+    width:  31px;
+    height: 65px;
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 8;
-    margin-top: 155.5px;
+    margin-top: 165px;
     margin-left: 65px;
     animation: is-boucing 1.5s ease alternate infinite ;
+    animation-delay: 3s;
 }
 .capad{
     position: relative;
 }
 .capa2{
-    width:  30px;
+    width:  31px;
+    height: 65px;
+    
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 8;
-    margin-top: 147px;
+    margin-top: 158px;
     margin-left: 110px;
     animation: is-boucing 1.5s ease alternate infinite ;
+    animation-delay: 3s;
 }
 
 .refrid{
@@ -64,13 +70,14 @@ animation: is-boucing01 1.5s  alternate infinite ;
 }
 .refri1{
     position: absolute;
-    width: 22px;
+    width: 24px;
     top: 50%;
     left: 50%;
     z-index: 7;
-    margin-top: 138px;
-    margin-left:68px;
+    margin-top: 144px;
+    margin-left:67px;
     animation: is-boucing02 1.5s ease alternate infinite ;
+    animation-delay: 3s;
     
 }
 .refri2d{
@@ -78,13 +85,14 @@ animation: is-boucing01 1.5s  alternate infinite ;
 }
 .refri2{
     position: absolute;
-    width: 32px;
+    width: 33px;
     top: 50%;
     left: 50%;
     z-index: 7;
-    margin-top: 130px;
+    margin-top: 137px;
     margin-left:112.5px;
     animation: is-boucing02 1.5s ease alternate infinite ;
+    animation-delay: 3s;
     
 }
 .roda01{
@@ -181,6 +189,7 @@ animation: is-boucing01 1.5s  alternate infinite ;
     margin-top: 111px;
     margin-left: 37px;
     animation: is-boucing 1.5s ease alternate infinite ;
+    animation-delay: 3s;
     
     
     
