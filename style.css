@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    animation-delay: 3s;
 }
 body,html{
     background-color: gray;
